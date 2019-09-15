@@ -5,10 +5,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BarraNavegacaoSuperiorComponent } from './barra-navegacao-superior/barra-navegacao-superior.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BarraNavegacaoSuperiorComponent
   ],
   imports: [
     BrowserModule,
