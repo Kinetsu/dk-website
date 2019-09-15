@@ -1,21 +1,20 @@
 <mat-toolbar color="primary">
     <div class="content-toolbar">
-      <img src="../assets/imagens/logo-darkeden.png">
+      <img src="../assets/images/dk-logo.png">
 
-      <ul class="no-padding">
-        <li>{{ 'HOME' | translate }}</li>
-        <li>{{ 'NEWS' | translate }}</li>
-        <li>{{ 'INFO' | translate }}</li>
-        <li>{{ 'BIBLES' | translate }}</li>
-        <li>{{ 'RANKING' | translate }}</li>
-        <li>{{ 'DONATION' | translate }}</li>
-      </ul>
+      <mat-nav-list>
+        <mat-list-item>{{ 'HOME' | translate }}</mat-list-item>
+        <mat-list-item>{{ 'INFO' | translate }}</mat-list-item>
+        <mat-list-item>{{ 'BIBLES' | translate }}</mat-list-item>
+        <mat-list-item>{{ 'RANKING' | translate }}</mat-list-item>
+        <mat-list-item>{{ 'DONATION' | translate }}</mat-list-item>
+      </mat-nav-list>
 
-      <span class="filler"></span>
+      <span class="content-filler"></span>
 
-      <ul class="no-padding no-margin">
-        <li>{{ 'LOGIN' | translate }}</li>
-        <li>{{ 'REGISTER' | translate }}</li>
-      </ul>
+      <mat-nav-list>
+          <mat-list-item>{{ 'LOGIN' | translate }}</mat-list-item>
+          <mat-list-item>{{ 'REGISTER' | translate }}</mat-list-item>
+        </mat-nav-list>
     </div>
   </mat-toolbar>

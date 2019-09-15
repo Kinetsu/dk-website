@@ -1,10 +1,17 @@
 {
+  "DATE_FORMAT_FRONT": "MM/dd/yyyy",
+  "TIME_FORMAT_FRONT": "HH:mm:ss",
+  "DATE_TIME_FORMAT_FRONT": "MM/dd/yyyy HH:mm:ss",
+  "DATE_FORMAT_BACK": "yyyy-MM-dd",
+  "DATE_TIME_FORMAT_BACK": "yyyy-MM-dd HH:mm:ss",
+  "TIME_FORMAT_BACK": "HH:mm:ss",
   "HOME": "Home",
-  "NEWS": "News",
   "INFO": "Info",
   "BIBLES": "Bibles",
   "RANKING": "Ranking",
   "DONATION": "Donation",
   "LOGIN": "Login",
-  "REGISTER": "Register"
+  "REGISTER": "Register",
+  "LATEST_NEWS": "Latest news",
+  "CHECK_LATEST_NEWS_EVENTS_UPDATES": "Check the latest news, events and updates"
 }
