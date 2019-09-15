@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$dk-primary: mat-palette($mat-gray, 900);
+$dk-accent: mat-palette($mat-blue-gray, 700);
+$dk-warn: mat-palette($mat-red, A200);
+
+$dk-theme: mat-dark-theme(
+  $dk-primary,
+  $dk-accent,
+  $dk-warn
+);
+
+@include angular-material-theme($dk-theme);
