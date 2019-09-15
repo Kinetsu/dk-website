@@ -22,6 +22,8 @@ import {
   MatCardModule
 } from '@angular/material';
 
+import { MatCarouselModule } from '@ngmodule/material-carousel';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -42,7 +44,8 @@ import {
     MatTooltipModule,
     MatTableModule,
     MatPaginatorModule,
-    MatCardModule
+    MatCardModule,
+    MatCarouselModule
   ],
   exports: [
     MatButtonModule,
@@ -61,7 +64,8 @@ import {
     MatTooltipModule,
     MatTableModule,
     MatPaginatorModule,
-    MatCardModule
+    MatCardModule,
+    MatCarouselModule
   ],
   providers: [
     MatDatepickerModule,
