@@ -1,2 +1,10 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 @import "./theme.scss";
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
