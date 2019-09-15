@@ -5,16 +5,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BarraNavegacaoSuperiorComponent } from './barra-navegacao-superior/barra-navegacao-superior.component';
-import { CarouselPrincipalComponent } from './home/carousel-principal/carousel-principal.component';
+import { NavBarTopComponent } from './nav-bar-top/nav-bar-top.component';
+import { CarouselMainComponent } from './home/carousel-main/carousel-main.component';
 import { HomeComponent } from './home/home.component';
+import { NewsComponent } from './home/news/news.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BarraNavegacaoSuperiorComponent,
-    CarouselPrincipalComponent,
-    HomeComponent
+    NavBarTopComponent,
+    CarouselMainComponent,
+    HomeComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,
