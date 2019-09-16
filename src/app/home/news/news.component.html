@@ -1,7 +1,6 @@
 <mat-card>
   <mat-card-header>
     <mat-card-title>{{ 'LATEST_NEWS' | translate }}</mat-card-title>
-    <mat-card-subtitle>{{ 'CHECK_LATEST_NEWS_EVENTS_UPDATES' | translate}}</mat-card-subtitle>
   </mat-card-header>
 
   <mat-divider></mat-divider>
@@ -9,10 +8,10 @@
   <mat-card-content>
     <mat-nav-list>
       <mat-list-item *ngFor="let news of newsList">
-        <mat-icon>{{news.type}}</mat-icon>
-        <span>{{news.title}}</span>
+        <mat-icon>{{ news.type }}</mat-icon>
+        <span>{{ news.title }}</span>
         <span class="content-filler"></span>
-        <span>{{news.date | date:translate.data.DATE_TIME_FORMAT_FRONT}}</span>
+        <span>{{ news.date | date:translate.data.DATE_TIME_FORMAT_FRONT }}</span>
       </mat-list-item>
     </mat-nav-list>
   </mat-card-content>

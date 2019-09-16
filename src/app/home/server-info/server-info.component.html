@@ -1,0 +1,35 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ 'INFORMATIONS' | translate }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-divider></mat-divider>
+
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item>
+        <span>{{ 'VERSION' | translate }}</span>
+        <span class="content-filler"></span>
+        <span>{{ version }}</span>
+      </mat-list-item>
+
+      <mat-list-item>
+        <span>{{ 'RATE_XP' | translate }}</span>
+        <span class="content-filler"></span>
+        <span>{{ rateXP }}</span>
+      </mat-list-item>
+
+      <mat-list-item>
+        <span>{{ 'PET_XP' | translate }}</span>
+        <span class="content-filler"></span>
+        <span>{{ petXP }}</span>
+      </mat-list-item>
+
+      <mat-list-item>
+        <span>{{ 'RANK_XP' | translate }}</span>
+        <span class="content-filler"></span>
+        <span>{{ rankXP }}</span>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

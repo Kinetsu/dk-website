@@ -13,6 +13,7 @@ import { CarouselMainComponent } from './home/carousel-main/carousel-main.compon
 import { HomeComponent } from './home/home.component';
 import { NewsComponent } from './home/news/news.component';
 import { TranslatePipe } from './translate.pipe';
+import { ServerInfoComponent } from './home/server-info/server-info.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TranslatePipe } from './translate.pipe';
     CarouselMainComponent,
     HomeComponent,
     NewsComponent,
-    TranslatePipe
+    TranslatePipe,
+    ServerInfoComponent
   ],
   imports: [
     BrowserModule,
