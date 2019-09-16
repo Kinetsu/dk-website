@@ -11,9 +11,9 @@ import { AppComponent } from './app.component';
 import { NavBarTopComponent } from './nav-bar-top/nav-bar-top.component';
 import { CarouselMainComponent } from './home/carousel-main/carousel-main.component';
 import { HomeComponent } from './home/home.component';
-import { NewsComponent } from './home/news/news.component';
+import { NewsCardComponent } from './home/news-card/news-card.component';
 import { TranslatePipe } from './translate.pipe';
-import { ServerInfoComponent } from './home/server-info/server-info.component';
+import { ServerInfoCardComponent } from './home/server-info-card/server-info-card.component';
 
 @NgModule({
   declarations: [
@@ -21,9 +21,9 @@ import { ServerInfoComponent } from './home/server-info/server-info.component';
     NavBarTopComponent,
     CarouselMainComponent,
     HomeComponent,
-    NewsComponent,
+    NewsCardComponent,
     TranslatePipe,
-    ServerInfoComponent
+    ServerInfoCardComponent
   ],
   imports: [
     BrowserModule,

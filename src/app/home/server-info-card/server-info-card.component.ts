@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'dk-server-info',
-  templateUrl: './server-info.component.html',
-  styleUrls: ['./server-info.component.scss']
+  selector: 'dk-server-info-card',
+  templateUrl: './server-info-card.component.html',
+  styleUrls: ['./server-info-card.component.scss']
 })
-export class ServerInfoComponent implements OnInit {
+export class ServerInfoCardComponent implements OnInit {
 
   public readonly version = '6.69';
   public readonly rateXP = '100x';

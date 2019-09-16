@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { News, NewsType } from './news';
+import { News, NewsType } from './news-card.model';
 import { TranslateService } from 'src/app/translate.service';
 
 @Component({
-  selector: 'dk-news',
-  templateUrl: './news.component.html',
-  styleUrls: ['./news.component.scss']
+  selector: 'dk-news-card',
+  templateUrl: './news-card.component.html',
+  styleUrls: ['./news-card.component.scss']
 })
-export class NewsComponent implements OnInit {
+export class NewsCardComponent implements OnInit {
 
   public newsList = new Array<News>();
 
