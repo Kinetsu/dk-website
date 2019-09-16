@@ -21,5 +21,8 @@
   "MEGA": "Mega",
   "4SHARED": "4Shared",
   "GOOGLE_DRIVE": "Google Drive",
-  "DIRECT_DOWNLOAD": "Direct Download"
+  "DIRECT_DOWNLOAD": "Direct Download",
+  "SERVER_STATUS": "Server Status",
+  "STATUS": "Status",
+  "ONLINE_PLAYERS": "Online Players"
 }

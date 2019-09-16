@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ 'SERVER_STATUS' | translate }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-divider></mat-divider>
+
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item>
+        <span>{{ 'STATUS' | translate }}</span>
+        <span class="content-filler"></span>
+        <span>{{ status }}</span>
+      </mat-list-item>
+
+      <mat-list-item>
+        <span>{{ 'ONLINE_PLAYERS' | translate }}</span>
+        <span class="content-filler"></span>
+        <span>{{ onlinePlayers }}</span>
+      </mat-list-item>
+
+      <mat-list-item>
+      </mat-list-item>
+
+      <mat-list-item>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+</mat-card>

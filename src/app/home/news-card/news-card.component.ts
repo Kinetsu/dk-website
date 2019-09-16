@@ -17,21 +17,42 @@ export class NewsCardComponent implements OnInit {
     this.newsList.push({
       id: 1,
       type: NewsType.Info,
-      title: 'Information',
+      title: 'Information lorem ipsum dolor sit amet',
+      date: new Date()
+    });
+
+    this.newsList.push({
+      id: 1,
+      type: NewsType.Info,
+      title: 'Another information lorem ipsum dolor sit amet',
       date: new Date()
     });
 
     this.newsList.push({
       id: 2,
       type: NewsType.Event,
-      title: 'Event',
+      title: 'Event lorem ipsum dolor sit amet',
+      date: new Date()
+    });
+
+    this.newsList.push({
+      id: 2,
+      type: NewsType.Event,
+      title: 'Another event lorem ipsum dolor sit amet',
       date: new Date()
     });
 
     this.newsList.push({
       id: 3,
       type: NewsType.Update,
-      title: 'Update',
+      title: 'Update lorem ipsum dolor sit amet',
+      date: new Date()
+    });
+
+    this.newsList.push({
+      id: 3,
+      type: NewsType.Update,
+      title: 'Another update lorem ipsum dolor sit amet',
       date: new Date()
     });
   }
