@@ -14,6 +14,7 @@ import { HomeComponent } from './home/home.component';
 import { NewsCardComponent } from './home/news-card/news-card.component';
 import { TranslatePipe } from './translate.pipe';
 import { ServerInfoCardComponent } from './home/server-info-card/server-info-card.component';
+import { DownloadsCardComponent } from './home/downloads-card/downloads-card.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ServerInfoCardComponent } from './home/server-info-card/server-info-car
     HomeComponent,
     NewsCardComponent,
     TranslatePipe,
-    ServerInfoCardComponent
+    ServerInfoCardComponent,
+    DownloadsCardComponent
   ],
   imports: [
     BrowserModule,

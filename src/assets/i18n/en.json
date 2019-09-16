@@ -16,5 +16,10 @@
   "VERSION": "Version",
   "RATE_XP": "Rate XP",
   "PET_XP": "Pet XP",
-  "RANK_XP": "Rank XP"
+  "RANK_XP": "Rank XP",
+  "DOWNLOADS": "Downloads",
+  "MEGA": "Mega",
+  "4SHARED": "4Shared",
+  "GOOGLE_DRIVE": "Google Drive",
+  "DIRECT_DOWNLOAD": "Direct Download"
 }
