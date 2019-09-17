@@ -6,7 +6,7 @@ export class News {
 }
 
 export enum NewsType {
-  Info = 'info',
+  Info = 'info_outline',
   Event = 'event',
   Update = 'system_update_alt'
 }
