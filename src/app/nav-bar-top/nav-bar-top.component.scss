@@ -18,13 +18,14 @@ mat-toolbar {
         width: auto;
 
         ::ng-deep div {
-          padding: 0 10px;
+          padding: 0 10px !important;
         }
       }
     }
 
     img {
       max-height: 50px;
+      margin-right: 10px;
     }
   }
 }
