@@ -39,6 +39,7 @@
   "FEMALE": "Female",
   "PIN": "PIN",
   "CONFIRM_PIN": "Confirm PIN",
+  "NUMBERS_ONLY": "Numbers Only",
   "AGREE_WITH_TERMS?": "Do you agree with terms?",
   "SUBMIT": "Submit"
 }
