@@ -1,0 +1,40 @@
+form {
+  margin-top: 15px !important;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+::ng-deep .mat-figure {
+  align-items: baseline !important;
+}
+
+::ng-deep .force-align-center figure {
+  align-items: center !important;
+}
+
+button {
+  width: 100%;
+}
+
+@keyframes autofill {
+  to {
+      color: #FFF;
+      background: transparent;
+  }
+}
+
+@-webkit-keyframes autofill {
+  to {
+      color: #FFF;
+      background: transparent;
+  }
+}
+
+input:-webkit-autofill {
+  animation-name: autofill;
+  animation-fill-mode: both;
+  -webkit-animation-name: autofill;
+  -webkit-animation-fill-mode: both;
+}

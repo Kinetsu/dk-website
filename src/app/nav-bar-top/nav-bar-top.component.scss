@@ -16,6 +16,7 @@ mat-toolbar {
       mat-list-item {
         display: inline-block;
         width: auto;
+        user-select: none;
 
         ::ng-deep div {
           padding: 0 10px !important;

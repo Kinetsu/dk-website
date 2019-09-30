@@ -24,5 +24,21 @@
   "DIRECT_DOWNLOAD": "Direct Download",
   "SERVER_STATUS": "Server Status",
   "STATUS": "Status",
-  "ONLINE_PLAYERS": "Online Players"
+  "ONLINE_PLAYERS": "Online Players",
+
+  "REGISTER_FORM": "Register Form",
+  "USER_NAME": "User Name",
+  "PASSWORD": "Password",
+  "CONFIRM_PASSWORD": "Confirm Password",
+  "FULL_NAME": "Full Name",
+  "EMAIL": "Email",
+  "CONFIRM_EMAIL": "Confirm Email",
+  "BIRTH_DATE": "Birth Date",
+  "GENDER": "Gender",
+  "MALE": "Male",
+  "FEMALE": "Female",
+  "PIN": "PIN",
+  "CONFIRM_PIN": "Confirm PIN",
+  "AGREE_WITH_TERMS?": "Do you agree with terms?",
+  "SUBMIT": "Submit"
 }

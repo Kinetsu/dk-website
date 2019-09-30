@@ -11,6 +11,7 @@ import {
   MatGridListModule,
   MatFormFieldModule,
   MatInputModule,
+  MatCheckboxModule,
   MatSelectModule,
   MatRadioModule,
   MatDatepickerModule,
@@ -19,7 +20,8 @@ import {
   MatTooltipModule,
   MatTableModule,
   MatPaginatorModule,
-  MatCardModule
+  MatCardModule,
+  MAT_DATE_LOCALE
 } from '@angular/material';
 
 import { MatCarouselModule } from '@ngmodule/material-carousel';
@@ -36,6 +38,7 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
     MatGridListModule,
     MatFormFieldModule,
     MatInputModule,
+    MatCheckboxModule,
     MatSelectModule,
     MatRadioModule,
     MatDatepickerModule,
@@ -56,6 +59,7 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
     MatListModule,
     MatGridListModule,
     MatInputModule,
+    MatCheckboxModule,
     MatFormFieldModule,
     MatSelectModule,
     MatRadioModule,
@@ -69,6 +73,7 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
   ],
   providers: [
     MatDatepickerModule,
+    { provide: MAT_DATE_LOCALE, useValue: 'en-GB' },
   ]
 })
 

@@ -16,6 +16,8 @@ import { TranslatePipe } from './translate.pipe';
 import { ServerInfoCardComponent } from './home/server-info-card/server-info-card.component';
 import { DownloadsCardComponent } from './home/downloads-card/downloads-card.component';
 import { ServerStatusCardComponent } from './home/server-status-card/server-status-card.component';
+import { RegisterFormComponent } from './register-form/register-form.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -27,11 +29,13 @@ import { ServerStatusCardComponent } from './home/server-status-card/server-stat
     TranslatePipe,
     ServerInfoCardComponent,
     DownloadsCardComponent,
-    ServerStatusCardComponent
+    ServerStatusCardComponent,
+    RegisterFormComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     AngularMaterialModule,
     AppRoutingModule,
     HttpClientModule,

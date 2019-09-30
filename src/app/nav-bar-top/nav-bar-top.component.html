@@ -3,7 +3,7 @@
     <img src="../assets/images/dk-logo.png">
 
     <mat-nav-list>
-      <mat-list-item>{{ 'HOME' | translate }}</mat-list-item>
+      <mat-list-item routerLink="">{{ 'HOME' | translate }}</mat-list-item>
       <mat-list-item>{{ 'RANKING' | translate }}</mat-list-item>
       <mat-list-item>{{ 'BIBLES' | translate }}</mat-list-item>
       <mat-list-item>{{ 'DONATION' | translate }}</mat-list-item>
@@ -13,7 +13,7 @@
 
     <mat-nav-list>
       <mat-list-item>{{ 'LOGIN' | translate }}</mat-list-item>
-      <mat-list-item>{{ 'REGISTER' | translate }}</mat-list-item>
+      <mat-list-item routerLink="register">{{ 'REGISTER' | translate }}</mat-list-item>
     </mat-nav-list>
   </div>
 </mat-toolbar>
