@@ -12,7 +12,7 @@
 
           <mat-grid-tile colspan="4">
             <mat-form-field>
-              <input matInput formControlName="userName" placeholder="{{ 'USER_NAME' | translate }}">
+              <input matInput required formControlName="userName" placeholder="{{ 'USER_NAME' | translate }}">
               <mat-error>
                 <dk-mat-errors [field]="form.controls.userName"></dk-mat-errors>
               </mat-error>
@@ -21,7 +21,7 @@
 
           <mat-grid-tile colspan="4">
             <mat-form-field>
-              <input matInput type="password" formControlName="password" placeholder="{{ 'PASSWORD' | translate }}">
+              <input matInput required type="password" formControlName="password" placeholder="{{ 'PASSWORD' | translate }}">
               <mat-error>
                 <dk-mat-errors [field]="form.controls.password"></dk-mat-errors>
               </mat-error>
@@ -30,7 +30,7 @@
 
           <mat-grid-tile colspan="4">
             <mat-form-field>
-              <input matInput type="password" formControlName="confirmPassword"
+              <input matInput required type="password" formControlName="confirmPassword"
                 placeholder="{{ 'CONFIRM_PASSWORD' | translate }}">
               <mat-error>
                 <dk-mat-errors [field]="form.controls.confirmPassword"></dk-mat-errors>
@@ -40,7 +40,7 @@
 
           <mat-grid-tile colspan="4">
             <mat-form-field>
-              <input matInput formControlName="fullName" placeholder="{{ 'FULL_NAME' | translate }}">
+              <input matInput required formControlName="fullName" placeholder="{{ 'FULL_NAME' | translate }}">
               <mat-error>
                 <dk-mat-errors [field]="form.controls.fullName"></dk-mat-errors>
               </mat-error>
@@ -49,7 +49,7 @@
 
           <mat-grid-tile colspan="4">
             <mat-form-field>
-              <input matInput formControlName="email" placeholder="{{ 'EMAIL' | translate }}">
+              <input matInput required formControlName="email" placeholder="{{ 'EMAIL' | translate }}">
               <mat-error>
                 <dk-mat-errors [field]="form.controls.email"></dk-mat-errors>
               </mat-error>
@@ -58,7 +58,7 @@
 
           <mat-grid-tile colspan="4">
             <mat-form-field>
-              <input matInput formControlName="confirmEmail" placeholder="{{ 'CONFIRM_EMAIL' | translate }}">
+              <input matInput required formControlName="confirmEmail" placeholder="{{ 'CONFIRM_EMAIL' | translate }}">
               <mat-error>
                 <dk-mat-errors [field]="form.controls.confirmEmail"></dk-mat-errors>
               </mat-error>
@@ -67,7 +67,7 @@
 
           <mat-grid-tile colspan="3">
             <mat-form-field>
-              <input matInput [matDatepicker]="myDatepicker" formControlName="birthDate"
+              <input matInput required [matDatepicker]="myDatepicker" formControlName="birthDate"
                 placeholder="{{ 'BIRTH_DATE' | translate }}">
               <mat-datepicker-toggle matSuffix [for]="myDatepicker"></mat-datepicker-toggle>
               <mat-datepicker #myDatepicker></mat-datepicker>
@@ -79,7 +79,7 @@
 
           <mat-grid-tile colspan="3">
             <mat-form-field>
-              <mat-select formControlName="gender" placeholder="{{ 'GENDER' | translate }}">
+              <mat-select required formControlName="gender" placeholder="{{ 'GENDER' | translate }}">
                 <mat-option value="M">{{ 'MALE' | translate }}</mat-option>
                 <mat-option value="F">{{ 'FEMALE' | translate }}</mat-option>
               </mat-select>
@@ -91,7 +91,7 @@
 
           <mat-grid-tile colspan="3">
             <mat-form-field>
-              <input matInput type="password" formControlName="pin" placeholder="{{ 'PIN' | translate }}">
+              <input matInput required type="password" formControlName="pin" placeholder="{{ 'PIN' | translate }}">
               <mat-hint>{{ 'NUMBERS_ONLY' | translate }}</mat-hint>
               <mat-error>
                 <dk-mat-errors [field]="form.controls.pin"></dk-mat-errors>
@@ -101,7 +101,7 @@
 
           <mat-grid-tile colspan="3">
             <mat-form-field>
-              <input matInput type="password" formControlName="confirmPin"
+              <input matInput required type="password" formControlName="confirmPin"
                 placeholder="{{ 'CONFIRM_PIN' | translate }}">
               <mat-hint>{{ 'NUMBERS_ONLY' | translate }}</mat-hint>
               <mat-error>
@@ -115,7 +115,7 @@
           </mat-grid-tile>
 
           <mat-grid-tile colspan="6">
-            <button mat-stroked-button type="submit" [disabled]="form.invalid">{{ 'SUBMIT' | translate }}</button>
+            <button mat-stroked-button type="submit" [disabled]="form.invalid">{{ 'REGISTER' | translate }}</button>
           </mat-grid-tile>
 
         </mat-grid-list>
