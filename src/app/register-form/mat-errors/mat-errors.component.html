@@ -1,0 +1,6 @@
+<ng-container *ngIf="field.hasError('required')">{{ 'ERR_MSG_REQUIRED_FIELD' | translate }}</ng-container>
+<ng-container *ngIf="field.hasError('minlength')">{{ 'ERR_MSG_MIN_LENGTH' | translate }}: {{ field.errors.minlength.requiredLength }}</ng-container>
+<ng-container *ngIf="field.hasError('maxlength')">{{ 'ERR_MSG_MAX_LENGTH' | translate }}: {{ field.errors.maxlength.requiredLength }}</ng-container>
+<ng-container *ngIf="field.hasError('email')">{{ 'ERR_MSG_INVALID_EMAIL' | translate }}</ng-container>
+<ng-container *ngIf="field.hasError('pattern')">{{ 'ERR_MSG_INVALID_CONTENT' | translate }}</ng-container>
+<ng-container *ngIf="field.hasError('mustMatch')">{{ 'ERR_MSG_FIELD_DONT_MATCH' | translate }}</ng-container>

@@ -18,6 +18,7 @@ import { DownloadsCardComponent } from './home/downloads-card/downloads-card.com
 import { ServerStatusCardComponent } from './home/server-status-card/server-status-card.component';
 import { RegisterFormComponent } from './register-form/register-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { MatErrorsComponent } from './register-form/mat-errors/mat-errors.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ServerInfoCardComponent,
     DownloadsCardComponent,
     ServerStatusCardComponent,
-    RegisterFormComponent
+    RegisterFormComponent,
+    MatErrorsComponent
   ],
   imports: [
     BrowserModule,

@@ -41,5 +41,12 @@
   "CONFIRM_PIN": "Confirm PIN",
   "NUMBERS_ONLY": "Numbers Only",
   "AGREE_WITH_TERMS?": "Do you agree with terms?",
-  "SUBMIT": "Submit"
+  "SUBMIT": "Submit",
+
+  "ERR_MSG_REQUIRED_FIELD": "Required Field",
+  "ERR_MSG_MIN_LENGTH": "Minimum Length",
+  "ERR_MSG_MAX_LENGTH": "Maximum Length",
+  "ERR_MSG_INVALID_EMAIL": "Invalid E-mail",
+  "ERR_MSG_INVALID_CONTENT": "Invalid Content",
+  "ERR_MSG_FIELD_DONT_MATCH": "Field Doesn't Match"
 }
