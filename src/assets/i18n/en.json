@@ -47,5 +47,13 @@
   "ERR_MSG_MAX_LENGTH": "Maximum Length",
   "ERR_MSG_INVALID_EMAIL": "Invalid E-mail",
   "ERR_MSG_INVALID_CONTENT": "Invalid Content",
-  "ERR_MSG_FIELD_DONT_MATCH": "Field Doesn't Match"
+  "ERR_MSG_FIELD_DONT_MATCH": "Field Doesn't Match",
+
+  "SLAYER": "Slayer",
+  "VAMPIRE": "Vampire",
+  "OUSTER": "Ouster",
+  "#": "#",
+  "RANK": "Rank",
+  "NAME": "Name",
+  "LEVEL": "Level"
 }

@@ -19,6 +19,8 @@ import { ServerStatusCardComponent } from './home/server-status-card/server-stat
 import { RegisterFormComponent } from './register-form/register-form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatErrorsComponent } from './register-form/mat-errors/mat-errors.component';
+import { RankingComponent } from './ranking/ranking.component';
+import { RankingTableComponent } from './ranking/ranking-table/ranking-table.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { MatErrorsComponent } from './register-form/mat-errors/mat-errors.compon
     DownloadsCardComponent,
     ServerStatusCardComponent,
     RegisterFormComponent,
-    MatErrorsComponent
+    MatErrorsComponent,
+    RankingComponent,
+    RankingTableComponent
   ],
   imports: [
     BrowserModule,

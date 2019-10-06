@@ -1,0 +1,36 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ classType.toString().toUpperCase() | translate }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-divider></mat-divider>
+
+  <mat-card-content>
+    <table mat-table [dataSource]="data">
+      <ng-container matColumnDef="position">
+        <th mat-header-cell *matHeaderCellDef>{{ '#' | translate }}</th>
+        <td mat-cell *matCellDef="let entry">{{entry.position}}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="playerRank">
+        <th mat-header-cell *matHeaderCellDef>{{ 'RANK' | translate }}</th>
+        <td mat-cell *matCellDef="let entry">
+          <img src="/assets/images/{{classType.toString()}}-ranks/{{entry.playerRank}}.gif" />
+        </td>
+      </ng-container>
+
+      <ng-container matColumnDef="playerName">
+        <th mat-header-cell *matHeaderCellDef>{{ 'NAME' | translate }}</th>
+        <td mat-cell *matCellDef="let entry">{{entry.playerName}}</td>
+      </ng-container>
+
+      <ng-container matColumnDef="rankingData">
+        <th mat-header-cell *matHeaderCellDef>{{ 'LEVEL' | translate }}</th>
+        <td mat-cell *matCellDef="let entry">{{entry.rankingData}}</td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="tableColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: tableColumns;"></tr>
+    </table>
+  </mat-card-content>
+</mat-card>

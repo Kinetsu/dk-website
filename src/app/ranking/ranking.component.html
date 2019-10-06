@@ -1,0 +1,11 @@
+<mat-grid-list cols="3" rowHeight="1000px" gutterSize="15px">
+  <mat-grid-tile>
+    <dk-ranking-table [data]="slayers" [classType]="classType.Slayer"></dk-ranking-table>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <dk-ranking-table [data]="vampires" [classType]="classType.Vampire"></dk-ranking-table>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <dk-ranking-table [data]="ousters" [classType]="classType.Ouster"></dk-ranking-table>
+  </mat-grid-tile>
+</mat-grid-list>
