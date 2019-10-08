@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '../translate.service';
 
 @Component({
   selector: 'dk-nav-bar-top',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarTopComponent implements OnInit {
 
-  constructor() { }
+  constructor(public translate: TranslateService) { }
 
   ngOnInit() {
+  }
+
+  public switchLanguage(language: string) {
+    this.translate.use(language);
   }
 
 }

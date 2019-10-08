@@ -1,17 +1,31 @@
 <mat-toolbar color="primary">
   <div class="content-toolbar">
-    <img src="../assets/images/dk-logo.png" routerLink="">
+    <img class="logo" src="../assets/images/dk-logo.png" routerLink="">
 
     <mat-nav-list>
       <mat-list-item routerLink="">{{ 'HOME' | translate }}</mat-list-item>
       <mat-list-item routerLink="ranking">{{ 'RANKING' | translate }}</mat-list-item>
       <mat-list-item routerLink="bibles">{{ 'BIBLES' | translate }}</mat-list-item>
+      <mat-list-item routerLink="register">{{ 'REGISTER' | translate }}</mat-list-item>
     </mat-nav-list>
 
     <span class="content-filler"></span>
 
     <mat-nav-list>
-      <mat-list-item routerLink="register">{{ 'REGISTER' | translate }}</mat-list-item>
+      <mat-list-item [matMenuTriggerFor]="menu">
+        <mat-icon mat-list-icon svgIcon="flg_{{translate.currentLanguage}}"></mat-icon>
+      </mat-list-item>
+
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item (click)="switchLanguage('en')">
+          <mat-icon svgIcon="flg_en"></mat-icon>
+          <span>{{ 'ENGLISH' | translate }}</span>
+        </button>
+        <button mat-menu-item (click)="switchLanguage('br')">
+          <mat-icon svgIcon="flg_br"></mat-icon>
+          <span>{{ 'PORTUGUESE' | translate }}</span>
+        </button>
+      </mat-menu>
     </mat-nav-list>
   </div>
 </mat-toolbar>

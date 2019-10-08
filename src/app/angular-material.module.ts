@@ -21,7 +21,8 @@ import {
   MatTableModule,
   MatPaginatorModule,
   MatCardModule,
-  MAT_DATE_LOCALE
+  MAT_DATE_LOCALE,
+  MatMenuModule
 } from '@angular/material';
 
 import { MatCarouselModule } from '@ngmodule/material-carousel';
@@ -29,6 +30,7 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
 @NgModule({
   imports: [
     CommonModule,
+    MatMenuModule,
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
@@ -51,6 +53,7 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
     MatCarouselModule
   ],
   exports: [
+    MatMenuModule,
     MatButtonModule,
     MatToolbarModule,
     MatIconModule,
