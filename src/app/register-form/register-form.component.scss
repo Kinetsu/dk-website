@@ -1,13 +1,20 @@
 form {
   margin-top: 15px !important;
-}
 
-mat-form-field {
-  width: 100%;
-}
+  mat-form-field {
+    width: 100%;
+  }
 
-button {
-  width: 100%;
+  button {
+    width: 100%;
+  }
+
+  input:-webkit-autofill {
+    animation-name: autofill;
+    animation-fill-mode: both;
+    -webkit-animation-name: autofill;
+    -webkit-animation-fill-mode: both;
+  }
 }
 
 @keyframes autofill {
@@ -22,11 +29,4 @@ button {
       color: #FFF;
       background: transparent;
   }
-}
-
-input:-webkit-autofill {
-  animation-name: autofill;
-  animation-fill-mode: both;
-  -webkit-animation-name: autofill;
-  -webkit-animation-fill-mode: both;
 }

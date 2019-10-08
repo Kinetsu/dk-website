@@ -31,7 +31,7 @@ export class RankingComponent implements OnInit {
   }
 
   private mock(list: Array<RankingEntry>): void {
-    for (let i = 1; i <= 25; i++) {
+    for (let i = 1; i <= 20; i++) {
       const entry: RankingEntry = {
         playerName: `Player ${i}`,
         playerRank: i * 2,

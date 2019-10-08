@@ -1,27 +1,27 @@
 table {
   width: 100%;
-}
 
-tr.mat-header-row {
-  height: 35px;
-}
+  tr.mat-header-row {
+    height: 35px;
+  }
 
-tr.mat-row {
-  height: 35px;
-}
+  tr.mat-row {
+    height: 35px;
+  }
 
-.mat-column-position {
-  width: 20%;
-}
+  .mat-column-position {
+    width: 20%;
+  }
 
-.mat-column-playerRank {
-  width: 15%;
-}
+  .mat-column-playerRank {
+    width: 15%;
+  }
 
-.mat-column-playerName {
-  width: auto;
-}
+  .mat-column-playerName {
+    width: auto;
+  }
 
-.mat-column-rankingData {
-  width: 15%;
+  .mat-column-rankingData {
+    width: 15%;
+  }
 }
