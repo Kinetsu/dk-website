@@ -21,6 +21,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { MatErrorsComponent } from './register-form/mat-errors/mat-errors.component';
 import { RankingComponent } from './ranking/ranking.component';
 import { RankingTableComponent } from './ranking/ranking-table/ranking-table.component';
+import { BiblesComponent } from './bibles/bibles.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { RankingTableComponent } from './ranking/ranking-table/ranking-table.com
     RegisterFormComponent,
     MatErrorsComponent,
     RankingComponent,
-    RankingTableComponent
+    RankingTableComponent,
+    BiblesComponent
   ],
   imports: [
     BrowserModule,

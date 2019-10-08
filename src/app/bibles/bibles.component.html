@@ -1,0 +1,29 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>{{ 'BIBLES' | translate }}</mat-card-title>
+  </mat-card-header>
+
+  <mat-divider></mat-divider>
+
+  <mat-card-content>
+    <mat-grid-list cols="4" rowHeight="150px" gutterSize="15px">
+      <mat-grid-tile *ngFor="let bible of bibles">
+        <mat-card>
+          <mat-card-header>
+            <div mat-card-avatar [ngStyle]="{
+                'background-image': 'url(/assets/images/' + bible.class.toString() + '-bibles/' + bible.name + '.png)',
+                'background-size': 'cover' }">
+            </div>
+            <mat-card-title>{{ bible.name | titlecase }}</mat-card-title>
+            <mat-card-subtitle>{{ bible.class.toString() | titlecase }}</mat-card-subtitle>
+          </mat-card-header>
+
+          <mat-card-content>
+            {{ bible.bonus }}
+          </mat-card-content>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+
+  </mat-card-content>
+</mat-card>

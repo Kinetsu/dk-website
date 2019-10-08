@@ -4,9 +4,3 @@ export class RankingEntry {
   playerName: string;
   rankingData: string;
 }
-
-export enum ClassType {
-  Slayer = 'slayer',
-  Vampire = 'vampire',
-  Ouster = 'ouster'
-}

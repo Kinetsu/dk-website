@@ -1,5 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { RankingEntry, ClassType } from '../ranking-entry.model';
+import { RankingEntry } from '../ranking-entry.model';
+import { ClassType } from 'src/app/shared/class-type.enum';
 
 @Component({
   selector: 'dk-ranking-table',

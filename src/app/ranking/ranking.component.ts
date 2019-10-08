@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { RankingEntry, ClassType } from './ranking-entry.model';
+import { RankingEntry } from './ranking-entry.model';
+import { ClassType } from '../shared/class-type.enum';
 
 @Component({
   selector: 'dk-ranking',
@@ -16,6 +17,10 @@ export class RankingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.mockData();
+  }
+
+  private mockData(): void {
     this.slayers = new Array<RankingEntry>();
     this.vampires = new Array<RankingEntry>();
     this.ousters = new Array<RankingEntry>();

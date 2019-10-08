@@ -55,5 +55,18 @@
   "#": "#",
   "RANK": "Rank",
   "NAME": "Name",
-  "LEVEL": "Level"
+  "LEVEL": "Level",
+
+  "ARMEGA_BONUS": "Needed HP(MP) of skills are reduced to 50%",
+  "AROSA_BONUS": "HP +50",
+  "CHASPA_BONUS": "STR +7 INT +7",
+  "CONCILIA_BONUS": "All resistance +9",
+  "GREGORI_BONUS": "Vision +5, All abilities +4",
+  "HILLEL_BONUS": "Translation between different races",
+  "INI_BONUS": "Physical damage +10",
+  "JAVE_BONUS": "50% reduced price of gamble",
+  "KIRO_BONUS": "INT +7 DEX +7",
+  "LEGIOS_BONUS": "Damages of magical atack +10",
+  "MIHOLE_BONUS": "Luck +10",
+  "NEMA_BONUS": "50% reduced price for potions"
 }
